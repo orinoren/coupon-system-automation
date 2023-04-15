@@ -80,7 +80,8 @@
                         </property>
                     </properties>
                     <suiteXmlFiles>
-                        <suiteXmlFile>suite\regression.xml</suiteXmlFile>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <suiteXmlFile>suite\${TESTNG_FILE}.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
