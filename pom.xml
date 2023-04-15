@@ -81,7 +81,7 @@
                     </properties>
                     <suiteXmlFiles>
                         <!--suppress UnresolvedMavenProperty -->
-                        <suiteXmlFile>suite\${TESTNG_FILE}.xml</suiteXmlFile>
+                        <suiteXmlFile>suite\${testng.file}.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
