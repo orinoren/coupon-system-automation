@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T15:03:20 IDT" name="Surefire suite" finished-at="2023-04-15T15:03:30 IDT" duration-ms="10466">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T15:03:20 IDT" name="Surefire test" finished-at="2023-04-15T15:03:30 IDT" duration-ms="10466">
+      <class name="coupons.e2e.TestHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:20 IDT" name="setup" finished-at="2023-04-15T15:03:24 IDT" duration-ms="4600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testClickOnEnterAsGuest()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:24 IDT" name="testClickOnEnterAsGuest" finished-at="2023-04-15T15:03:25 IDT" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnEnterAsGuest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:25 IDT" name="tearDown" finished-at="2023-04-15T15:03:26 IDT" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:26 IDT" name="setup" finished-at="2023-04-15T15:03:28 IDT" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithCustomer()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:28 IDT" name="testLoginWithCustomer" finished-at="2023-04-15T15:03:29 IDT" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:coupons.e2e.TestHomePage@4387b79e]" started-at="2023-04-15T15:03:29 IDT" name="tearDown" finished-at="2023-04-15T15:03:30 IDT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- coupons.e2e.TestHomePage -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

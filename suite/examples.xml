@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Example Tests" verbose="1">
+    <test name="Test AssertJ">
+        <classes>
+            <class name="accelix.examples.TestAssertJ"/>
+        </classes>
+    </test>
+    <test name="Test Data Driven">
+        <classes>
+            <class name="accelix.examples.TestDataDriven"/>
+        </classes>
+    </test>
+    <test name="Test Report">
+        <classes>
+            <class name="accelix.examples.TestReport"/>
+        </classes>
+    </test>
+</suite>
